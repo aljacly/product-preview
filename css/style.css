@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        background:hsl(30, 38%, 92%);
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-component img {
+        height: 250px;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        border-bottom: 30rem solid white;
+       
+    }
+    .text-component {
+        margin-top: -29rem;
+        margin-left: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        color:  hsl(228, 12%, 48%);
+        letter-spacing: 1px;
+        line-height: 1.5;
+        
+      
+    }
+    .text-component .title {
+        letter-spacing: 5px;
+        font-size: small;
+        color:  hsl(228, 12%, 48%);
+        line-height: normal;
+       
+    }
+    .text-component h1 {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 32px;
+        color:black;
+        line-height: normal;
+       
+    }
+    .text-component .cost {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+        font-size: 32px;
+    }
+    .text-component .cart-icon img {
+        position: absolute;
+        height: auto;
+        width: 20px;
+        margin-top: 6rem;
+        margin-left: 5rem;
+        z-index: 1;
+        height: 20px;
+
+    }
+   .text-component .discount {
+        text-decoration: line-through;
+        margin-bottom: 1rem;
+    }
+    button {
+        font-family: 'Montserrat', sans-serif;
+        background-color: hsl(158, 36%, 37%);
+        border:none;
+        color: white;
+       width: 320px;
+       height: 50px;
+       margin-top: 3rem;
+       border-radius: 5px;
+       font-weight: bold;
+       position: fixed;
+    }
+
+    }
+    

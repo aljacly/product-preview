@@ -52,7 +52,7 @@ and (max-device-width: 480px) {
         position: absolute;
         height: auto;
         width: 20px;
-        margin-top: 6rem;
+        margin-top: 4rem;
         margin-left: 5rem;
         z-index: 1;
         height: 20px;

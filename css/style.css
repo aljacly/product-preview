@@ -13,7 +13,7 @@ and (max-device-width: 480px) {
     .card-component img {
         height: 250px;
         border-radius: 1rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
         border-bottom: 30rem solid white;
        
     }
@@ -31,29 +31,41 @@ and (max-device-width: 480px) {
         letter-spacing: 5px;
         font-size: small;
         color:  hsl(228, 12%, 48%);
-        line-height: normal;
+        line-height: 30px;
+        margin-left: 1rem;
        
     }
     .text-component h1 {
         font-family: 'Fraunces', serif;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 36px;
         color:black;
         line-height: normal;
+        margin-left: 20px;
+        margin-top: 4px;
        
     }
+    .text-component p {
+        margin-left: 19px;
+        font-size: smaller;
+        line-height: 2;
+        font-size: 17px;
+        margin-top: -11px;
+      }
+    
     .text-component .cost {
         font-family: 'Fraunces', serif;
         font-weight: 700;
         color: hsl(158, 36%, 37%);
-        font-size: 32px;
+       font-size: 32px;
+        margin-left: 20px;
     }
     .text-component .cart-icon img {
         position: absolute;
         height: auto;
         width: 20px;
-        margin-top: 4rem;
-        margin-left: 5rem;
+        margin-top: 2rem;
+        margin-left: 7rem;
         z-index: 1;
         height: 20px;
 
@@ -69,11 +81,18 @@ and (max-device-width: 480px) {
         color: white;
        width: 320px;
        height: 50px;
-       margin-top: 3rem;
+       margin-top: 1rem;
        border-radius: 5px;
        font-weight: bold;
        position: fixed;
+       margin-left: 20px;
+       cursor: pointer;
     }
+    button:hover {
+        cursor: pointer;
+        background-color: rgb(26, 64, 49);
+    }
+
 
     }
     

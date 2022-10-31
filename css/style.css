@@ -68,6 +68,7 @@ and (max-device-width: 480px) {
         margin-left: 7rem;
         z-index: 1;
         height: 20px;
+        position: fixed;
 
     }
    .text-component .discount {
@@ -87,6 +88,7 @@ and (max-device-width: 480px) {
        position: fixed;
        margin-left: 20px;
        cursor: pointer;
+       position: fixed;
     }
     button:hover {
         cursor: pointer;
